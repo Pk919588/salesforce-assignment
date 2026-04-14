@@ -1,3 +1,33 @@
+# Salesforce UI
+
+This project now uses:
+
+- A React frontend on `http://localhost:3000`
+- A Node/Express backend on `http://localhost:5000`
+
+## Local Development
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the backend in one terminal:
+
+```bash
+npm run server
+```
+
+Start the React app in a second terminal:
+
+```bash
+npm start
+```
+
+During development, the React dev server forwards `/api/salesforce/*` requests
+to the backend on port `5000`.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

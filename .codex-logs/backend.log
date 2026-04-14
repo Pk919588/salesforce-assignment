@@ -1,0 +1,505 @@
+
+> salesforce-ui@0.1.0 server
+> node server.js
+
+[Salesforce Backend] Server is running on port 5000
+[Salesforce Backend] Forwarding Salesforce token request { grantType: 'authorization_code' }
+[Salesforce Backend] Forwarding Salesforce token request { grantType: 'authorization_code' }
+[Salesforce Backend] Salesforce token request returned an error { status: 400, grantType: 'authorization_code' }
+[Salesforce Backend] Salesforce token request succeeded { status: 200, grantType: 'authorization_code' }
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'GET',
+  targetUrl: 'https://login.salesforce.com/id/00DgK00000Mbjo7UAB/005gK00002zhh3xQAA'
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'GET',
+  targetUrl: 'https://login.salesforce.com/id/00DgK00000Mbjo7UAB/005gK00002zhh3xQAA'
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 200,
+  targetUrl: 'https://login.salesforce.com/id/00DgK00000Mbjo7UAB/005gK00002zhh3xQAA'
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'GET',
+  targetUrl: "https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/tooling/query?q=%0A%20%20%20%20%20%20SELECT%20Id%2C%20ValidationName%2C%20Active%0A%20%20%20%20%20%20FROM%20ValidationRule%0A%20%20%20%20%20%20WHERE%20EntityDefinition.QualifiedApiName%20%3D%20'Account'%0A%20%20%20%20"
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 200,
+  targetUrl: 'https://login.salesforce.com/id/00DgK00000Mbjo7UAB/005gK00002zhh3xQAA'
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'GET',
+  targetUrl: "https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/tooling/query?q=%0A%20%20%20%20%20%20SELECT%20Id%2C%20ValidationName%2C%20Active%0A%20%20%20%20%20%20FROM%20ValidationRule%0A%20%20%20%20%20%20WHERE%20EntityDefinition.QualifiedApiName%20%3D%20'Account'%0A%20%20%20%20"
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 200,
+  targetUrl: "https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/tooling/query?q=%0A%20%20%20%20%20%20SELECT%20Id%2C%20ValidationName%2C%20Active%0A%20%20%20%20%20%20FROM%20ValidationRule%0A%20%20%20%20%20%20WHERE%20EntityDefinition.QualifiedApiName%20%3D%20'Account'%0A%20%20%20%20"
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 200,
+  targetUrl: "https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/tooling/query?q=%0A%20%20%20%20%20%20SELECT%20Id%2C%20ValidationName%2C%20Active%0A%20%20%20%20%20%20FROM%20ValidationRule%0A%20%20%20%20%20%20WHERE%20EntityDefinition.QualifiedApiName%20%3D%20'Account'%0A%20%20%20%20"
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'GET',
+  targetUrl: 'https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/metadata/read/ValidationRule/Account.Account_Name_Min_Length'
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'GET',
+  targetUrl: 'https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/metadata/read/ValidationRule/Account.Account_Name_Min_Length'
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 404,
+  targetUrl: 'https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/metadata/read/ValidationRule/Account.Account_Name_Min_Length'
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 404,
+  targetUrl: 'https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/metadata/read/ValidationRule/Account.Account_Name_Min_Length'
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'GET',
+  targetUrl: 'https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/metadata/read/ValidationRule/Account.Phone_Number_Validation'
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'GET',
+  targetUrl: 'https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/metadata/read/ValidationRule/Account.Phone_Number_Validation'
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 404,
+  targetUrl: 'https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/metadata/read/ValidationRule/Account.Phone_Number_Validation'
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 404,
+  targetUrl: 'https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/metadata/read/ValidationRule/Account.Phone_Number_Validation'
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'GET',
+  targetUrl: 'https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/metadata/read/ValidationRule/Account.Annual_Revenue_Non_Negative'
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 404,
+  targetUrl: 'https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/metadata/read/ValidationRule/Account.Annual_Revenue_Non_Negative'
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'GET',
+  targetUrl: 'https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/metadata/read/ValidationRule/Account.Annual_Revenue_Non_Negative'
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'GET',
+  targetUrl: 'https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/metadata/read/ValidationRule/Account.Website_Format_Validation'
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 404,
+  targetUrl: 'https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/metadata/read/ValidationRule/Account.Annual_Revenue_Non_Negative'
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 404,
+  targetUrl: 'https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/metadata/read/ValidationRule/Account.Website_Format_Validation'
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'GET',
+  targetUrl: 'https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/metadata/read/ValidationRule/Account.Website_Format_Validation'
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'GET',
+  targetUrl: 'https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/metadata/read/ValidationRule/Account.Industry_Type_Required'
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 404,
+  targetUrl: 'https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/metadata/read/ValidationRule/Account.Website_Format_Validation'
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 404,
+  targetUrl: 'https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/metadata/read/ValidationRule/Account.Industry_Type_Required'
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'GET',
+  targetUrl: 'https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/metadata/read/ValidationRule/Account.Industry_Type_Required'
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 404,
+  targetUrl: 'https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/metadata/read/ValidationRule/Account.Industry_Type_Required'
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'GET',
+  targetUrl: 'https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/metadata/read/ValidationRule/undefined'
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 404,
+  targetUrl: 'https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/metadata/read/ValidationRule/undefined'
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'GET',
+  targetUrl: 'https://login.salesforce.com/id/00DgK00000Mbjo7UAB/005gK00002zhh3xQAA'
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 200,
+  targetUrl: 'https://login.salesforce.com/id/00DgK00000Mbjo7UAB/005gK00002zhh3xQAA'
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'GET',
+  targetUrl: "https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/tooling/query?q=%0A%20%20%20%20%20%20SELECT%20Id%2C%20ValidationName%2C%20Active%0A%20%20%20%20%20%20FROM%20ValidationRule%0A%20%20%20%20%20%20WHERE%20EntityDefinition.QualifiedApiName%20%3D%20'Account'%0A%20%20%20%20"
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 200,
+  targetUrl: "https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/tooling/query?q=%0A%20%20%20%20%20%20SELECT%20Id%2C%20ValidationName%2C%20Active%0A%20%20%20%20%20%20FROM%20ValidationRule%0A%20%20%20%20%20%20WHERE%20EntityDefinition.QualifiedApiName%20%3D%20'Account'%0A%20%20%20%20"
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'GET',
+  targetUrl: 'https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/metadata/read/ValidationRule/Account.Account_Name_Min_Length'
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 404,
+  targetUrl: 'https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/metadata/read/ValidationRule/Account.Account_Name_Min_Length'
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'GET',
+  targetUrl: 'https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/metadata/read/ValidationRule/Account.Phone_Number_Validation'
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 404,
+  targetUrl: 'https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/metadata/read/ValidationRule/Account.Phone_Number_Validation'
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'GET',
+  targetUrl: 'https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/metadata/read/ValidationRule/Account.Annual_Revenue_Non_Negative'
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 404,
+  targetUrl: 'https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/metadata/read/ValidationRule/Account.Annual_Revenue_Non_Negative'
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'GET',
+  targetUrl: 'https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/metadata/read/ValidationRule/Account.Website_Format_Validation'
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 404,
+  targetUrl: 'https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/metadata/read/ValidationRule/Account.Website_Format_Validation'
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'GET',
+  targetUrl: 'https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/metadata/read/ValidationRule/Account.Industry_Type_Required'
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 404,
+  targetUrl: 'https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/metadata/read/ValidationRule/Account.Industry_Type_Required'
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'GET',
+  targetUrl: 'https://login.salesforce.com/id/00DgK00000Mbjo7UAB/005gK00002zhh3xQAA'
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 200,
+  targetUrl: 'https://login.salesforce.com/id/00DgK00000Mbjo7UAB/005gK00002zhh3xQAA'
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'GET',
+  targetUrl: "https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/tooling/query?q=%0A%20%20%20%20%20%20SELECT%20Id%2C%20ValidationName%2C%20Active%2C%20Description%2C%20ErrorMessage%2C%20ErrorConditionFormula%0A%20%20%20%20%20%20FROM%20ValidationRule%0A%20%20%20%20%20%20WHERE%20EntityDefinition.QualifiedApiName%20%3D%20'Account'%0A%20%20%20%20"
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 400,
+  targetUrl: "https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/tooling/query?q=%0A%20%20%20%20%20%20SELECT%20Id%2C%20ValidationName%2C%20Active%2C%20Description%2C%20ErrorMessage%2C%20ErrorConditionFormula%0A%20%20%20%20%20%20FROM%20ValidationRule%0A%20%20%20%20%20%20WHERE%20EntityDefinition.QualifiedApiName%20%3D%20'Account'%0A%20%20%20%20"
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'GET',
+  targetUrl: 'https://login.salesforce.com/id/00DgK00000Mbjo7UAB/005gK00002zhh3xQAA'
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'GET',
+  targetUrl: 'https://login.salesforce.com/id/00DgK00000Mbjo7UAB/005gK00002zhh3xQAA'
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 200,
+  targetUrl: 'https://login.salesforce.com/id/00DgK00000Mbjo7UAB/005gK00002zhh3xQAA'
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'GET',
+  targetUrl: "https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/tooling/query?q=%0A%20%20%20%20%20%20SELECT%20Id%2C%20ValidationName%2C%20Active%2C%20Description%2C%20ErrorMessage%2C%20ErrorConditionFormula%0A%20%20%20%20%20%20FROM%20ValidationRule%0A%20%20%20%20%20%20WHERE%20EntityDefinition.QualifiedApiName%20%3D%20'Account'%0A%20%20%20%20"
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 200,
+  targetUrl: 'https://login.salesforce.com/id/00DgK00000Mbjo7UAB/005gK00002zhh3xQAA'
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'GET',
+  targetUrl: "https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/tooling/query?q=%0A%20%20%20%20%20%20SELECT%20Id%2C%20ValidationName%2C%20Active%2C%20Description%2C%20ErrorMessage%2C%20ErrorConditionFormula%0A%20%20%20%20%20%20FROM%20ValidationRule%0A%20%20%20%20%20%20WHERE%20EntityDefinition.QualifiedApiName%20%3D%20'Account'%0A%20%20%20%20"
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 400,
+  targetUrl: "https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/tooling/query?q=%0A%20%20%20%20%20%20SELECT%20Id%2C%20ValidationName%2C%20Active%2C%20Description%2C%20ErrorMessage%2C%20ErrorConditionFormula%0A%20%20%20%20%20%20FROM%20ValidationRule%0A%20%20%20%20%20%20WHERE%20EntityDefinition.QualifiedApiName%20%3D%20'Account'%0A%20%20%20%20"
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 400,
+  targetUrl: "https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/tooling/query?q=%0A%20%20%20%20%20%20SELECT%20Id%2C%20ValidationName%2C%20Active%2C%20Description%2C%20ErrorMessage%2C%20ErrorConditionFormula%0A%20%20%20%20%20%20FROM%20ValidationRule%0A%20%20%20%20%20%20WHERE%20EntityDefinition.QualifiedApiName%20%3D%20'Account'%0A%20%20%20%20"
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'GET',
+  targetUrl: 'https://login.salesforce.com/id/00DgK00000Mbjo7UAB/005gK00002zhh3xQAA'
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 200,
+  targetUrl: 'https://login.salesforce.com/id/00DgK00000Mbjo7UAB/005gK00002zhh3xQAA'
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'GET',
+  targetUrl: "https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/tooling/query?q=%0A%20%20%20%20%20%20SELECT%20Id%2C%20ValidationName%2C%20Active%0A%20%20%20%20%20%20FROM%20ValidationRule%0A%20%20%20%20%20%20WHERE%20EntityDefinition.QualifiedApiName%20%3D%20'Account'%0A%20%20%20%20"
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 200,
+  targetUrl: "https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/tooling/query?q=%0A%20%20%20%20%20%20SELECT%20Id%2C%20ValidationName%2C%20Active%0A%20%20%20%20%20%20FROM%20ValidationRule%0A%20%20%20%20%20%20WHERE%20EntityDefinition.QualifiedApiName%20%3D%20'Account'%0A%20%20%20%20"
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'GET',
+  targetUrl: 'https://login.salesforce.com/id/00DgK00000Mbjo7UAB/005gK00002zhh3xQAA'
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 200,
+  targetUrl: 'https://login.salesforce.com/id/00DgK00000Mbjo7UAB/005gK00002zhh3xQAA'
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'GET',
+  targetUrl: "https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/tooling/query?q=%0A%20%20%20%20%20%20SELECT%20Id%2C%20ValidationName%2C%20Active%0A%20%20%20%20%20%20FROM%20ValidationRule%0A%20%20%20%20%20%20WHERE%20EntityDefinition.QualifiedApiName%20%3D%20'Account'%0A%20%20%20%20"
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 200,
+  targetUrl: "https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/tooling/query?q=%0A%20%20%20%20%20%20SELECT%20Id%2C%20ValidationName%2C%20Active%0A%20%20%20%20%20%20FROM%20ValidationRule%0A%20%20%20%20%20%20WHERE%20EntityDefinition.QualifiedApiName%20%3D%20'Account'%0A%20%20%20%20"
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'GET',
+  targetUrl: 'https://login.salesforce.com/id/00DgK00000Mbjo7UAB/005gK00002zhh3xQAA'
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 200,
+  targetUrl: 'https://login.salesforce.com/id/00DgK00000Mbjo7UAB/005gK00002zhh3xQAA'
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'GET',
+  targetUrl: "https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/tooling/query?q=%0A%20%20%20%20%20%20SELECT%20Id%2C%20ValidationName%2C%20Active%0A%20%20%20%20%20%20FROM%20ValidationRule%0A%20%20%20%20%20%20WHERE%20EntityDefinition.QualifiedApiName%20%3D%20'Account'%0A%20%20%20%20"
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 200,
+  targetUrl: "https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/tooling/query?q=%0A%20%20%20%20%20%20SELECT%20Id%2C%20ValidationName%2C%20Active%0A%20%20%20%20%20%20FROM%20ValidationRule%0A%20%20%20%20%20%20WHERE%20EntityDefinition.QualifiedApiName%20%3D%20'Account'%0A%20%20%20%20"
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'GET',
+  targetUrl: 'https://login.salesforce.com/id/00DgK00000Mbjo7UAB/005gK00002zhh3xQAA'
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'GET',
+  targetUrl: 'https://login.salesforce.com/id/00DgK00000Mbjo7UAB/005gK00002zhh3xQAA'
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 200,
+  targetUrl: 'https://login.salesforce.com/id/00DgK00000Mbjo7UAB/005gK00002zhh3xQAA'
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'GET',
+  targetUrl: "https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/tooling/query?q=%0A%20%20%20%20%20%20SELECT%20Id%2C%20ValidationName%2C%20Active%0A%20%20%20%20%20%20FROM%20ValidationRule%0A%20%20%20%20%20%20WHERE%20EntityDefinition.QualifiedApiName%20%3D%20'Account'%0A%20%20%20%20"
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 200,
+  targetUrl: 'https://login.salesforce.com/id/00DgK00000Mbjo7UAB/005gK00002zhh3xQAA'
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'GET',
+  targetUrl: "https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/tooling/query?q=%0A%20%20%20%20%20%20SELECT%20Id%2C%20ValidationName%2C%20Active%0A%20%20%20%20%20%20FROM%20ValidationRule%0A%20%20%20%20%20%20WHERE%20EntityDefinition.QualifiedApiName%20%3D%20'Account'%0A%20%20%20%20"
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 200,
+  targetUrl: "https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/tooling/query?q=%0A%20%20%20%20%20%20SELECT%20Id%2C%20ValidationName%2C%20Active%0A%20%20%20%20%20%20FROM%20ValidationRule%0A%20%20%20%20%20%20WHERE%20EntityDefinition.QualifiedApiName%20%3D%20'Account'%0A%20%20%20%20"
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 200,
+  targetUrl: "https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/tooling/query?q=%0A%20%20%20%20%20%20SELECT%20Id%2C%20ValidationName%2C%20Active%0A%20%20%20%20%20%20FROM%20ValidationRule%0A%20%20%20%20%20%20WHERE%20EntityDefinition.QualifiedApiName%20%3D%20'Account'%0A%20%20%20%20"
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'GET',
+  targetUrl: 'https://login.salesforce.com/id/00DgK00000Mbjo7UAB/005gK00002zhh3xQAA'
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 200,
+  targetUrl: 'https://login.salesforce.com/id/00DgK00000Mbjo7UAB/005gK00002zhh3xQAA'
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'GET',
+  targetUrl: "https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/tooling/query?q=%0A%20%20%20%20%20%20SELECT%20Id%2C%20ValidationName%2C%20Active%0A%20%20%20%20%20%20FROM%20ValidationRule%0A%20%20%20%20%20%20WHERE%20EntityDefinition.QualifiedApiName%20%3D%20'Account'%0A%20%20%20%20"
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 200,
+  targetUrl: "https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/tooling/query?q=%0A%20%20%20%20%20%20SELECT%20Id%2C%20ValidationName%2C%20Active%0A%20%20%20%20%20%20FROM%20ValidationRule%0A%20%20%20%20%20%20WHERE%20EntityDefinition.QualifiedApiName%20%3D%20'Account'%0A%20%20%20%20"
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'GET',
+  targetUrl: 'https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/metadata/read/ValidationRule/Account.Industry_Type_Required'
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 404,
+  targetUrl: 'https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/metadata/read/ValidationRule/Account.Industry_Type_Required'
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'GET',
+  targetUrl: 'https://login.salesforce.com/id/00DgK00000Mbjo7UAB/005gK00002zhh3xQAA'
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 200,
+  targetUrl: 'https://login.salesforce.com/id/00DgK00000Mbjo7UAB/005gK00002zhh3xQAA'
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'GET',
+  targetUrl: "https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/tooling/query?q=%0A%20%20%20%20%20%20SELECT%20Id%2C%20ValidationName%2C%20Active%0A%20%20%20%20%20%20FROM%20ValidationRule%0A%20%20%20%20%20%20WHERE%20EntityDefinition.QualifiedApiName%20%3D%20'Account'%0A%20%20%20%20"
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 200,
+  targetUrl: "https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/tooling/query?q=%0A%20%20%20%20%20%20SELECT%20Id%2C%20ValidationName%2C%20Active%0A%20%20%20%20%20%20FROM%20ValidationRule%0A%20%20%20%20%20%20WHERE%20EntityDefinition.QualifiedApiName%20%3D%20'Account'%0A%20%20%20%20"
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'PATCH',
+  targetUrl: 'https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/tooling/sobjects/ValidationRule/03dgK000000mWf7QAE'
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 400,
+  targetUrl: 'https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/tooling/sobjects/ValidationRule/03dgK000000mWf7QAE'
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'GET',
+  targetUrl: 'https://login.salesforce.com/id/00DgK00000Mbjo7UAB/005gK00002zhh3xQAA'
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 200,
+  targetUrl: 'https://login.salesforce.com/id/00DgK00000Mbjo7UAB/005gK00002zhh3xQAA'
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'GET',
+  targetUrl: "https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/tooling/query?q=%0A%20%20%20%20%20%20SELECT%20Id%2C%20ValidationName%2C%20Active%0A%20%20%20%20%20%20FROM%20ValidationRule%0A%20%20%20%20%20%20WHERE%20EntityDefinition.QualifiedApiName%20%3D%20'Account'%0A%20%20%20%20"
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 200,
+  targetUrl: "https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/tooling/query?q=%0A%20%20%20%20%20%20SELECT%20Id%2C%20ValidationName%2C%20Active%0A%20%20%20%20%20%20FROM%20ValidationRule%0A%20%20%20%20%20%20WHERE%20EntityDefinition.QualifiedApiName%20%3D%20'Account'%0A%20%20%20%20"
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'GET',
+  targetUrl: "https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/tooling/query?q=%0A%20%20%20%20%20%20%20%20SELECT%20Id%2C%20Metadata%0A%20%20%20%20%20%20%20%20FROM%20ValidationRule%0A%20%20%20%20%20%20%20%20WHERE%20Id%20%3D%20'03dgK000000mWf7QAE'%0A%20%20%20%20%20%20"
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 200,
+  targetUrl: "https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/tooling/query?q=%0A%20%20%20%20%20%20%20%20SELECT%20Id%2C%20Metadata%0A%20%20%20%20%20%20%20%20FROM%20ValidationRule%0A%20%20%20%20%20%20%20%20WHERE%20Id%20%3D%20'03dgK000000mWf7QAE'%0A%20%20%20%20%20%20"
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'PATCH',
+  targetUrl: 'https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/tooling/sobjects/ValidationRule/03dgK000000mWf7QAE'
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 204,
+  targetUrl: 'https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/tooling/sobjects/ValidationRule/03dgK000000mWf7QAE'
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'GET',
+  targetUrl: 'https://login.salesforce.com/id/00DgK00000Mbjo7UAB/005gK00002zhh3xQAA'
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'GET',
+  targetUrl: 'https://login.salesforce.com/id/00DgK00000Mbjo7UAB/005gK00002zhh3xQAA'
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 200,
+  targetUrl: 'https://login.salesforce.com/id/00DgK00000Mbjo7UAB/005gK00002zhh3xQAA'
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 200,
+  targetUrl: 'https://login.salesforce.com/id/00DgK00000Mbjo7UAB/005gK00002zhh3xQAA'
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'GET',
+  targetUrl: "https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/tooling/query?q=%0A%20%20%20%20%20%20SELECT%20Id%2C%20ValidationName%2C%20Active%0A%20%20%20%20%20%20FROM%20ValidationRule%0A%20%20%20%20%20%20WHERE%20EntityDefinition.QualifiedApiName%20%3D%20'Account'%0A%20%20%20%20"
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'GET',
+  targetUrl: "https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/tooling/query?q=%0A%20%20%20%20%20%20SELECT%20Id%2C%20ValidationName%2C%20Active%0A%20%20%20%20%20%20FROM%20ValidationRule%0A%20%20%20%20%20%20WHERE%20EntityDefinition.QualifiedApiName%20%3D%20'Account'%0A%20%20%20%20"
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 200,
+  targetUrl: "https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/tooling/query?q=%0A%20%20%20%20%20%20SELECT%20Id%2C%20ValidationName%2C%20Active%0A%20%20%20%20%20%20FROM%20ValidationRule%0A%20%20%20%20%20%20WHERE%20EntityDefinition.QualifiedApiName%20%3D%20'Account'%0A%20%20%20%20"
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 200,
+  targetUrl: "https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/tooling/query?q=%0A%20%20%20%20%20%20SELECT%20Id%2C%20ValidationName%2C%20Active%0A%20%20%20%20%20%20FROM%20ValidationRule%0A%20%20%20%20%20%20WHERE%20EntityDefinition.QualifiedApiName%20%3D%20'Account'%0A%20%20%20%20"
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'GET',
+  targetUrl: "https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/tooling/query?q=%0A%20%20%20%20%20%20%20%20SELECT%20Id%2C%20Metadata%0A%20%20%20%20%20%20%20%20FROM%20ValidationRule%0A%20%20%20%20%20%20%20%20WHERE%20Id%20%3D%20'03dgK000000mWf7QAE'%0A%20%20%20%20%20%20"
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 200,
+  targetUrl: "https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/tooling/query?q=%0A%20%20%20%20%20%20%20%20SELECT%20Id%2C%20Metadata%0A%20%20%20%20%20%20%20%20FROM%20ValidationRule%0A%20%20%20%20%20%20%20%20WHERE%20Id%20%3D%20'03dgK000000mWf7QAE'%0A%20%20%20%20%20%20"
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'PATCH',
+  targetUrl: 'https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/tooling/sobjects/ValidationRule/03dgK000000mWf7QAE'
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 204,
+  targetUrl: 'https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/tooling/sobjects/ValidationRule/03dgK000000mWf7QAE'
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'GET',
+  targetUrl: 'https://login.salesforce.com/id/00DgK00000Mbjo7UAB/005gK00002zhh3xQAA'
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 200,
+  targetUrl: 'https://login.salesforce.com/id/00DgK00000Mbjo7UAB/005gK00002zhh3xQAA'
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'GET',
+  targetUrl: "https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/tooling/query?q=%0A%20%20%20%20%20%20SELECT%20Id%2C%20ValidationName%2C%20Active%0A%20%20%20%20%20%20FROM%20ValidationRule%0A%20%20%20%20%20%20WHERE%20EntityDefinition.QualifiedApiName%20%3D%20'Account'%0A%20%20%20%20"
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 200,
+  targetUrl: "https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/tooling/query?q=%0A%20%20%20%20%20%20SELECT%20Id%2C%20ValidationName%2C%20Active%0A%20%20%20%20%20%20FROM%20ValidationRule%0A%20%20%20%20%20%20WHERE%20EntityDefinition.QualifiedApiName%20%3D%20'Account'%0A%20%20%20%20"
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'GET',
+  targetUrl: 'https://login.salesforce.com/id/00DgK00000Mbjo7UAB/005gK00002zhh3xQAA'
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'GET',
+  targetUrl: 'https://login.salesforce.com/id/00DgK00000Mbjo7UAB/005gK00002zhh3xQAA'
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 200,
+  targetUrl: 'https://login.salesforce.com/id/00DgK00000Mbjo7UAB/005gK00002zhh3xQAA'
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 200,
+  targetUrl: 'https://login.salesforce.com/id/00DgK00000Mbjo7UAB/005gK00002zhh3xQAA'
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'GET',
+  targetUrl: "https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/tooling/query?q=%0A%20%20%20%20%20%20SELECT%20Id%2C%20ValidationName%2C%20Active%0A%20%20%20%20%20%20FROM%20ValidationRule%0A%20%20%20%20%20%20WHERE%20EntityDefinition.QualifiedApiName%20%3D%20'Account'%0A%20%20%20%20"
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'GET',
+  targetUrl: "https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/tooling/query?q=%0A%20%20%20%20%20%20SELECT%20Id%2C%20ValidationName%2C%20Active%0A%20%20%20%20%20%20FROM%20ValidationRule%0A%20%20%20%20%20%20WHERE%20EntityDefinition.QualifiedApiName%20%3D%20'Account'%0A%20%20%20%20"
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 200,
+  targetUrl: "https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/tooling/query?q=%0A%20%20%20%20%20%20SELECT%20Id%2C%20ValidationName%2C%20Active%0A%20%20%20%20%20%20FROM%20ValidationRule%0A%20%20%20%20%20%20WHERE%20EntityDefinition.QualifiedApiName%20%3D%20'Account'%0A%20%20%20%20"
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 200,
+  targetUrl: "https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/tooling/query?q=%0A%20%20%20%20%20%20SELECT%20Id%2C%20ValidationName%2C%20Active%0A%20%20%20%20%20%20FROM%20ValidationRule%0A%20%20%20%20%20%20WHERE%20EntityDefinition.QualifiedApiName%20%3D%20'Account'%0A%20%20%20%20"
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'GET',
+  targetUrl: 'https://login.salesforce.com/id/00DgK00000Mbjo7UAB/005gK00002zhh3xQAA'
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 200,
+  targetUrl: 'https://login.salesforce.com/id/00DgK00000Mbjo7UAB/005gK00002zhh3xQAA'
+}
+[Salesforce Backend] Forwarding Salesforce proxy request {
+  method: 'GET',
+  targetUrl: "https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/tooling/query?q=%0A%20%20%20%20%20%20SELECT%20Id%2C%20ValidationName%2C%20Active%0A%20%20%20%20%20%20FROM%20ValidationRule%0A%20%20%20%20%20%20WHERE%20EntityDefinition.QualifiedApiName%20%3D%20'Account'%0A%20%20%20%20"
+}
+[Salesforce Backend] Salesforce proxy response received {
+  status: 200,
+  targetUrl: "https://orgfarm-54987f37f6-dev-ed.develop.my.salesforce.com/services/data/v61.0/tooling/query?q=%0A%20%20%20%20%20%20SELECT%20Id%2C%20ValidationName%2C%20Active%0A%20%20%20%20%20%20FROM%20ValidationRule%0A%20%20%20%20%20%20WHERE%20EntityDefinition.QualifiedApiName%20%3D%20'Account'%0A%20%20%20%20"
+}
