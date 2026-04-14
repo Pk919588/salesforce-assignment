@@ -325,6 +325,27 @@ app.get("/api/rules", (req, res) => {
       description: "Phone is required",
       errorMessage: "Enter phone number",
       active: false
+    },
+    {
+      id: 3,
+      ruleName: "Email Required",
+      description: "Email is required",
+      errorMessage: "Enter valid email",
+      active: true
+    },
+    {
+      id: 4,
+      ruleName: "Website Validation",
+      description: "Website must be valid URL",
+      errorMessage: "Enter valid website URL",
+      active: false
+    },
+    {
+      id: 5,
+      ruleName: "Industry Required",
+      description: "Industry field is mandatory",
+      errorMessage: "Select industry",
+      active: true
     }
   ]);
 });

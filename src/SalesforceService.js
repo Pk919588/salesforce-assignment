@@ -432,7 +432,7 @@ const SalesforceService = {
     };
   },
 
-  // ✅ FIX: Add this function
+  // Fetch validation rules
   getValidationRulesTooling: async () => {
     try {
       const response = await fetch(`${API_BASE_URL}/api/rules`);
@@ -446,7 +446,7 @@ const SalesforceService = {
     }
   },
 
-  // (Optional) keep old function also
+  // Optional duplicate
   getValidationRules: async () => {
     try {
       const response = await fetch(`${API_BASE_URL}/api/rules`);
@@ -460,6 +460,7 @@ const SalesforceService = {
     }
   },
 
+  // Update rule
   updateValidationRule: async (ruleName, isActive) => {
     try {
       const response = await fetch(`${API_BASE_URL}/api/rules/update`, {
@@ -479,6 +480,11 @@ const SalesforceService = {
       console.error("Error updating rule:", error);
       return null;
     }
+  },
+
+  // ✅ FIX: Add this function (IMPORTANT)
+  updateValidationRuleStatus: function(ruleName, isActive) {
+    return this.updateValidationRule(ruleName, isActive);
   }
 };
 
