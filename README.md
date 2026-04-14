@@ -1,3 +1,27 @@
+## Salesforce Validation Rules Manager
+
+### Live Links
+
+Frontend:
+https://salesforce-assignment-ql1qqgxvy-pk919588s-projects.vercel.app
+
+Backend:
+https://salesforce-assignment.onrender.com
+
+API:
+https://salesforce-assignment.onrender.com/api/rules
+
+---
+
+### Features
+- View validation rules
+- Toggle rule status
+- REST API integration
+
+---
+
+### Tech Stack
+React, Node.js, Express, Render, Vercel
 # Salesforce UI
 
 This project now uses:
