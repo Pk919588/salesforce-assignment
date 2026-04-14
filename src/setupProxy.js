@@ -1,7 +1,7 @@
 const { createProxyMiddleware } = require("http-proxy-middleware");
 
 const backendTarget =
-  process.env.REACT_APP_BACKEND_URL || "http://localhost:5000";
+  process.env.REACT_APP_BACKEND_URL || "https://salesforce-assignment.onrender.com";
 
 module.exports = function setupProxy(app) {
   // Forward Salesforce API calls from the React dev server to the Node backend.

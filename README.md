@@ -3,7 +3,7 @@
 This project now uses:
 
 - A React frontend on `http://localhost:3000`
-- A Node/Express backend on `http://localhost:5000`
+- A Node/Express backend on `https://salesforce-assignment.onrender.com`
 
 ## Local Development
 
