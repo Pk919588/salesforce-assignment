@@ -1,4 +1,45 @@
 ## Salesforce Validation Rules Manager
+📌 Project Overview
+
+This is a full-stack web application built to manage Salesforce-like validation rules. It allows users to perform CRUD operations (Create, Read, Update, Delete) on validation rules through a clean and interactive UI.
+
+The project uses a React frontend and a Node.js/Express backend.
+⚠️ Important Authentication Note
+
+👉 This project currently uses a login bypass mechanism due to development and deadline constraints.
+
+Authentication is simplified for demo purposes only
+Full OAuth-based login (Salesforce, Google, GitHub) is integrated conceptually and can be extended in future updates
+The main focus of this submission is the validation rules management system and UI functionality
+🛠️ Tech Stack
+Frontend:
+React.js
+React Router DOM
+Axios
+CSS / Bootstrap
+Backend:
+Node.js
+Express.js
+REST APIs
+
+⚙️ Features
+📊 Validation Rules Management
+Create new validation rules
+View all rules
+Edit existing rules
+Activate / Deactivate rules
+Delete rules
+
+🔐 Authentication Flow (Simplified)
+Login screen uses bypass authentication for development
+On login click, user is redirected to dashboard
+Logout clears local storage and redirects to login page
+
+📌 Future Improvements
+Full OAuth authentication (Google, GitHub, Salesforce)
+JWT-based secure login system
+Database integration (MongoDB / PostgreSQL)
+Role-based access control
 
 ### Live Links
 
