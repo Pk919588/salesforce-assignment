@@ -1,3 +1,4 @@
+
 const express = require("express");
 const cors = require("cors");
 const fetch = require("node-fetch");
@@ -308,6 +309,29 @@ app.post("/api/salesforce/token", async (req, res) => {
   }
 });
 
+
+app.get("/api/rules", (req, res) => {
+  res.json([
+    {
+      id: 1,
+      ruleName: "Account Name Required",
+      description: "Name cannot be empty",
+      errorMessage: "Enter account name",
+      active: true
+    },
+    {
+      id: 2,
+      ruleName: "Phone Required",
+      description: "Phone is required",
+      errorMessage: "Enter phone number",
+      active: false
+    }
+  ]);
+});
+
+app.post("/api/rules/update", (req, res) => {
+  res.json({ success: true });
+});
 app.use((req, res) => {
   return res.status(404).json({ error: "Route not found." });
 });
