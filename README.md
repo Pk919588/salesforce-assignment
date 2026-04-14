@@ -43,7 +43,7 @@ Role-based access control
 
 ### Live Links
 
-Frontend Live Link : salesforce-assignment-h7o2g8n35-pk919588s-projects.vercel.app
+Frontend Live Link : https://salesforce-assignment-h7o2g8n35-pk919588s-projects.vercel.app/
 
 Frontend:
 https://salesforce-assignment-ql1qqgxvy-pk919588s-projects.vercel.app
