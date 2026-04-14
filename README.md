@@ -98,3 +98,214 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+# 🚀 Salesforce UI Dashboard (Full-Stack Integration Project)
+
+## 📌 Overview
+
+This is a full-stack web application that integrates a React frontend with a Node.js/Express backend and connects to Salesforce using OAuth 2.0 authentication.
+
+The project demonstrates real-world enterprise integration where a web application securely communicates with Salesforce APIs to authenticate users and fetch/manage Salesforce data through a backend service layer.
+
+---
+
+## 🎯 Key Highlights
+
+* 🔐 Salesforce OAuth 2.0 Authentication
+* 🌐 Full-stack integration (React + Node.js + Salesforce API)
+* 📊 Dashboard-based UI for data visualization
+* ⚡ REST API communication between frontend and backend
+* 🔄 Real-time data fetching and UI updates
+* 🧩 Clean and scalable project architecture
+
+---
+
+## ⚙️ Tech Stack
+
+### Frontend
+
+* React.js (Create React App)
+* JavaScript (ES6+)
+* Axios (API calls)
+* HTML5 / CSS3
+
+### Backend
+
+* Node.js
+* Express.js
+* RESTful APIs
+* Salesforce REST API Integration
+
+### Tools & Services
+
+* Git & GitHub (Version Control)
+* Salesforce Developer Org
+* OAuth 2.0 Connected App
+
+---
+
+## 🏗️ System Architecture
+
+```
+[ React Frontend ]
+        ↓ (Axios API Requests)
+[ Node.js / Express Backend ]
+        ↓ (OAuth 2.0 + Salesforce REST API)
+[ Salesforce Platform ]
+```
+
+---
+
+## ✨ Features
+
+### 🔐 Authentication
+
+* Secure Salesforce OAuth 2.0 login flow
+* Token-based authentication handling
+
+### 📊 Data Operations
+
+* Fetch Salesforce data via REST APIs
+* Display validation rules and related information
+
+### ⚙️ Backend Services
+
+* Acts as middleware between frontend and Salesforce
+* Handles authentication, API requests, and responses
+
+### 🖥️ Frontend UI
+
+* Responsive and user-friendly dashboard
+* Dynamic updates after API calls
+* Clean component-based structure
+
+---
+
+## 📁 Project Structure
+
+```
+salesforce-assignment/
+│
+├── frontend/              # React frontend application
+│   ├── src/
+│   ├── public/
+│   └── package.json
+│
+├── backend/               # Node.js backend server
+│   ├── routes/
+│   ├── controllers/
+│   ├── server.js
+│   └── package.json
+│
+├── README.md              # Project documentation
+```
+
+---
+
+## 🚀 How to Run Locally
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/Pk919588/salesforce-assignment.git
+cd salesforce-assignment
+```
+
+---
+
+### 2️⃣ Install Dependencies
+
+#### Backend
+
+```bash
+cd backend
+npm install
+node server.js
+```
+
+Backend will run on:
+
+```
+http://localhost:5000
+```
+
+#### Frontend
+
+```bash
+cd frontend
+npm install
+npm start
+```
+
+Frontend will run on:
+
+```
+http://localhost:3000
+```
+
+---
+
+## 🔗 Salesforce Configuration
+
+To run this project, configure a Salesforce Connected App:
+
+* Create a Salesforce Developer Account
+* Enable OAuth Settings in Connected App
+* Set Callback URL:
+
+  ```
+  http://localhost:3000
+  ```
+* Required OAuth Scopes:
+
+  * Full Access (`full`)
+  * API Access (`api`)
+* Add Client ID and Client Secret in backend environment variables
+
+---
+
+## 📸 UI Overview
+
+The application provides a complete dashboard experience including:
+
+* 🔐 Salesforce OAuth Login Screen
+* 📊 Data Dashboard for Salesforce records
+* 📄 Validation rules management interface
+* ⚡ Seamless backend-to-Salesforce communication
+
+---
+
+## 🚀 Future Improvements
+
+* 🌍 Deploy frontend on Vercel
+* 🚀 Deploy backend on Render / AWS
+* 🔐 Add role-based authentication
+* 📊 Improve dashboard analytics UI
+* 🧾 Extend CRUD operations for Salesforce objects
+
+---
+
+## 👨‍💻 Author
+
+**Pradeep Kumar**
+GitHub: [https://github.com/Pk919588](https://github.com/Pk919588)
+
+---
+
+## ⭐ Support
+
+If you like this project, please give it a ⭐ on GitHub.
+
+---
+
+## 🧠 Senior Developer Note
+
+This project demonstrates:
+
+* Clean separation of frontend and backend concerns
+* Industry-standard OAuth 2.0 authentication flow
+* Scalable REST API architecture
+* Real-world Salesforce integration pattern used in enterprise systems
+
